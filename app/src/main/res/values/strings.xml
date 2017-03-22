@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">GeoServer M</string>
+
+    <string name="layer_list_activity_name">Available Layers</string>
+    <string name="help_activity_name">Help</string>
+
+    <string name="details_map_description">Map</string>
+
+    <string name="preferences_key">prefs</string>
+    <string name="prefs_address_key">address</string>
+    <string name="download_path_key">server_capabilities.txt</string>
+    <string name="target_layer_file_key">selected_layer</string>
+
+    <string name="menu_connect">Connect to host</string>
+    <string name="menu_help">Help</string>
+
+    <string name="alert_address_input_title">Server Address</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="alert_connect">Connect</string>
+    <string name="alert_close">Close</string>
+    <string name="alert_request">Request Map</string>
+    <string name="alert_empty_address">Please enter an address</string>
+    <string name="alert_empty_address_verify">Something went wrong. Please enter a new address and try again</string>
+    <string name="alert_network_error">Something went wrong, please try again</string>
+    <string name="alert_download_success">Download successful</string>
+    <string name="alert_download_failed">Download failed, please try again</string>
+    <string name="alert_file_not_found">The file could not be opened.</string>
+    <string name="alert_process_error">The file was opened but could not be processed.</string>
+    <string name="alert_quality_header">Select the map quality level</string>
+
+    <string name="progress_title">Fetching</string>
+    <string name="progress_message">Please wait, we are querying the server</string>
+
+    <string name="main_no_data">No data found\nCheck host address and refresh</string>
+    <string name="main_service_tag">Service Information</string>
+    <string name="main_map_capabilities_tag">Web Map Service Features</string>
+    <string name="main_map_format_tag">Supported Map Formats</string>
+    <string name="main_exception_tag">Exceptions</string>
+    <string name="main_layer_tag">Layers (Maps)</string>
+    <string name="main_name_tag">Name</string>
+    <string name="main_title_tag">Title</string>
+    <string name="main_abstract_tag">Abstract</string>
+    <string name="main_layer_count_tag">Layer Count</string>
+    <string name="main_view_layers_tag">View Layers</string>
+    <string name="main_server_input_prefix_tag">http://</string>
+    <string name="main_map_format_header">Geoserver can return a map in the following formats</string>
+    <string name="main_map_exception_header">In case of an error, Geoserver can throw an exception in one of the following formats</string>
+
+    <string name="layer_details_meta_header_tag">Meta Data</string>
+    <string name="layer_details_map_header_tag">Layer Map</string>
+    <string name="layer_details_map_info_tag">Click on the button to request the map</string>
+    <string name="layer_details_srs_tag">SRS</string>
+    <string name="layer_details_bbox_tag">Bounding Box</string>
+    <string name="layer_details_min_tag">Min</string>
+    <string name="layer_details_max_tag">Max</string>
+    <string name="layer_details_X_tag">X</string>
+    <string name="layer_details_Y_tag">Y</string>
+    <string name="layer_details_process_pending_tag">Please wait while we process the file</string>
+    <string name="layer_details_map_request_failed_tag">The map request failed, please try again later</string>
+    <string-array name="layer_details_quality_values">
+        <item>256 x 256</item>
+        <item>512 x 512</item>
+        <item>1024 x 1024</item>
+        <item>2048 x 2048 (Warning, this might cause the app to crash)</item>
+    </string-array>
+
+    <string name="help_title">GeoServer M</string>
+    <string name="help_section_1">GeoServer M allows you to interface with a remote installation of GeoServer. Just specify the host address and connect</string>
+</resources>
